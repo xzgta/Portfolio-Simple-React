@@ -1,0 +1,38 @@
+.Home {
+    position: relative;
+}
+
+.Home .big-container {
+    top: 50px;
+    left: 50px;
+    position: absolute;
+    width: 450px;
+    text-align: left;
+    animation: slideIn 0.5s ease-in-out;    
+}
+
+.Home h1 {
+    font-size: 60px;
+    font-family: 'PT-Bold';
+}
+
+.Home #border-text {
+    background-color: rgb(204, 85, 85);
+    margin-top: 20px;
+    width: 90px;
+    height: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+    .Home .big-container {
+        width: 300px; 
+    }
+
+    .Home h1 {
+        font-size: 30px;
+    }
+
+    .Home #border-text {
+        width: 40px;
+    }
+}

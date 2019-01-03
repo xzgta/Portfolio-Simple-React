@@ -1,0 +1,51 @@
+.About {
+    width: 100%;
+    animation: slideIn 0.5s ease-in-out;
+}
+
+.About .about-container {
+    width: 800px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.About .about-container h1 {
+    font-family: 'PT-Regular';
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.About .about-container p {
+    font-family: 'PT-Serif-Regular';
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .About .about-container {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .About .about-container {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .About .about-container {
+        width: 300px;
+    }
+
+    .About .about-container h1 {
+        font-size: 20px;
+    }
+    
+    .About .about-container p {
+        font-size: 18px;
+    }
+}
+
+

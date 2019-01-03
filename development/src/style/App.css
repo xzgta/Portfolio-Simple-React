@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.App {    
+    text-align: center;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: 'PT-Regular';
+    src: url(./../fonts/PT_Sans-Web-Regular.ttf);
+    font-display: 'swap';
+}
+
+@font-face {
+    font-family: 'PT-Bold';
+    src: url(./../fonts/PT_Sans-Web-Bold.ttf);
+    font-display: 'swap';
+}
+
+@font-face {
+    font-family: 'PT-Serif-Regular';
+    src: url(./../fonts/PT_Serif-Web-Regular.ttf);
+    font-display: 'swap';
+}
+
+@keyframes slideIn {
+    0% {margin-top: 50px; opacity: 0}
+    100% {margin-top: 0px; opacity: 1}
+}

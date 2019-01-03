@@ -1,0 +1,43 @@
+{
+  "name": "xzagta.github.io",
+  "version": "1.0.0",
+  "description": "Personal Page for Helmy Agta Al Fatah",
+  "main": "docs/src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --config webpack.config.dev.js"
+  },
+  "keywords": [
+    "Personal Page",
+    "Developer",
+    "Programmer",
+    "Helmy Agta Al Fatah"
+  ],
+  "author": "Helmy Agta Al Fatah",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "prop-types": "^15.6.1",
+    "style-loader": "^0.20.3",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  }
+}

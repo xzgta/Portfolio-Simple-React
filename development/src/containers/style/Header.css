@@ -1,0 +1,87 @@
+.Header {
+    width: 100%;
+    min-width: 300px;
+    text-align: right;
+    margin: 0px auto;
+}
+
+.Header .header-container{
+    padding: 20px;
+    padding-right: 40px;
+}
+
+.Header .header-container h1, h2, li{
+    font-family: 'PT-Regular';
+}
+
+.Header .header-container h1 {
+    font-weight: 450;
+    font-size: 35px;
+}
+
+.Header .header-container h2 {
+    font-weight: 300;
+}
+
+.Header .header-container ul {
+    list-style: none;
+    margin-top: 25px;
+ }
+.Header .header-container li {
+    font-weight: 400;
+    font-size: 20px;
+    display: inline;
+    margin-left: 25px;
+}
+
+.Header #border-text {
+    text-align: right;
+    background-color: rgb(92, 76, 230);
+    width: 125px;
+    height: 10px;
+    margin-left: auto;
+    margin-top: 8px;
+}
+
+.Header .header-container li:hover {
+    color: rgb(87, 79, 165);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .Header .header-container h1 {
+        font-size: 20px;
+    }
+
+    .Header .header-container h2 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .Header .header-container h1 {
+        font-size: 20px;
+    }
+
+    .Header .header-container h2 {
+        font-size: 15px;
+    }
+
+    .Header {
+        text-align: center;
+    }
+
+    .Header .header-container h1 {
+        margin-left: 30px;
+    }
+
+    .Header .header-container h2 {
+        margin-left: 30px;
+    }
+
+    .Header .header-container{
+        padding: 20px;
+        padding-right: 0px;
+    }
+}

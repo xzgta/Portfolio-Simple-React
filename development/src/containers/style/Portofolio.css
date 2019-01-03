@@ -1,0 +1,14 @@
+.Portofolio {
+    padding: 0px 20px;
+    text-align: left;
+    animation: slideIn 0.5s ease-in-out;
+}
+
+.Portofolio ul {
+    padding: 20px;
+}
+
+.Portofolio a {
+    text-decoration: none;
+    font-size: 18px;
+}
